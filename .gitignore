@@ -92,3 +92,5 @@ pickle-email-*.html
 public/assets/*
 cacert.pem
 cacert.pem.1
+
+_site
