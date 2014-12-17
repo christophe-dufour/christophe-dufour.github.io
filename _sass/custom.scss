@@ -1,0 +1,25 @@
+.img-circle {
+  border-radius: 50%;
+}
+
+h1 {
+  text-align: center;
+}
+
+.sidebar {
+  background: url("serre-poncon-lake.JPG");
+  background-size: cover;
+  .sidebar-nav-item, p {
+    color: #444;
+  }
+}
+
+h1 img {
+  border: solid 5px #ffffff;
+  background: rgba(255, 255, 255, 1);
+  display: inline;
+}
+
+.post-categories{
+  float:right;
+}

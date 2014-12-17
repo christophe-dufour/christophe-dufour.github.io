@@ -2,10 +2,26 @@
 title: Christophe Dufour
 description: > # this means to ignore newlines until "baseurl:"
   My blog about technical stuff I want to share.
-baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://christophe-dufour.github.io/" # the base hostname & protocol for your site
 twitter_username: christof_dufour
 github_username:  christophe-dufour
 
 # Build settings
 markdown: kramdown
+
+baseurl: /
+
+paginate:         5
+
+jekyll-archives:
+  enabled: all
+  layout: 'archive'
+  permalinks:
+    year: '/:year/'
+    month: '/:year/:month/'
+    day: '/:year/:month/:day/'
+    tag: '/tag/:name/'
+    category: '/category/:name/'
+
+gems:
+  - jekyll-archives
