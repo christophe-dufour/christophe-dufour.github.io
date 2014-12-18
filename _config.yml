@@ -2,7 +2,7 @@
 title: Christophe Dufour
 description: > # this means to ignore newlines until "baseurl:"
   My blog about technical stuff I want to share.
-url: "http://christophe-dufour.github.io/" # the base hostname & protocol for your site
+url: "http://www.christophe-dufour.fr/" # the base hostname & protocol for your site
 twitter_username: christof_dufour
 github_username:  christophe-dufour
 
