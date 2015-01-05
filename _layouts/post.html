@@ -13,7 +13,7 @@ layout: default
     {% if page.categories[0] %}
   <span class="post-categories post-date">[
     {% for category in page.categories %}
-      <a href="{{ site.baseurl }}category/{{ category }}">{{ category }}</a>
+      {{ category }}
     {% endfor %}]
     </span>
     {% endif %}
