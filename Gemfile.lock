@@ -149,3 +149,4 @@ DEPENDENCIES
   github-pages
   jekyll-archives
   jekyll-press
+  jekyll-sitemap
