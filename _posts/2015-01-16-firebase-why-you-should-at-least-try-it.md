@@ -5,17 +5,18 @@ date:   2015-01-16 12:00:37
 categories: firebase javascript real-time
 ---
 
-A few month from now, I was looking to add some real time feature to a website
+A few month from now, I was looking to add some real time feature to a website.
 
 I found bunch of stuff, like [pusher](https://pusher.com/), [socket.io](http://socket.io/) and of course **[Firebase](https://www.firebase.com/)**
 
 
-
 ## The 2 main reasons why you should try (and use) Firebase :
+
+
 
 ### It sync an save at the same time
 
-If you have a basic CRUD app (or website), you will have to add some real time feature in the future. So why don't you take a real time ready solution right now?
+If you have a basic CRUD app (or website), you will have to add some real time feature in the future (most website are doing it). So why don't you take a real time ready solution right now?
 
 If you write a real time website (or app), you will have to store the data in the future. So why don't you choose a both real time / storage solution right now?
 
@@ -32,6 +33,9 @@ Of course, Firebase works with most known web and mobile technologies :
 
 
 In fact, working with Firebase is like having a dropbox in your web page. *(I should say a google drive, because Firebase is a Google company)*
+
+![firebase dropbox html](/public/firebase_dropbox_html.jpg "Firebase equals a dropbox into html page")
+
 
 You put stuff you want to save/synch on it and that's it! Firebase handle everything for you. If you are offline, it will try to sync it when you are back online :) 
 Here is an example how simple it is : 
@@ -73,21 +77,23 @@ When you're a developer, hosting stuff is offen a huge pain.
 
 * How to choose the right offer?
 * How will I maintain it?
-* Are my server going attacked?
+* How much time am I going to spend on it ? (more than you think...)
+* Are my servers under attack?
 
-If you are in a small structure, and you are the only tech guy, you will have to answer all this question. It's gonna take and money (a lot more than you think at the beginning).
+If you are in a small structure, and you are the only tech guy, you will have to answer all this question. It's gonna take time and money.
 
-At a moment, you will open your eyes and say : Why am I spending all that energy to try to understand this linux stuff I do not even care about it ?
+At a moment, you will open your eyes and say : Why am I spending all that energy to try to understand this linux stuff ? I don't even care about it, I'm not a system administrator.
 
-And of course, that's the moment you will have to hire a system an network administrator.
-
-
-[Why don't you try a server less solution, allowing you to deploy you app in a single code line?](https://www.firebase.com/)
+And that's the moment you will have to hire a system an network administrator.
 
 
-## A few things that might be improved :
+[Try a server less solution, allowing you to deploy you app in a single code line?](https://www.firebase.com/)
+
+
+## A few things that might be improved in Firebase :
 
 ### Having an hacker plan with a custom domain
+
 
 When you start a simple MVP,
 
@@ -106,8 +112,11 @@ When you start a simple MVP,
 
 So please Firebase, think about adding custom domain for Hacker plan or create a **spark plan** : Hacker plan + custom domain for about *5$/month*.
 
+![firebase spark](/public/firebase-spark-plan.jpg "Firebase spark")
+
 
 ### Adding a storage like AWS Glacier
+
 
 Having synchronized/stored data is awesome.
 I think it's definitely why Firebase is one a the most powerful tool I have ever seen.
@@ -122,3 +131,5 @@ In fact, as you website is getting older, you have all this data you want to "Ar
 * I really want to keep it.
 * I don't care if I have to wait few minutes (may be more) to access it.
 * It will be great to pay less (and/or have more space available) to store it.
+
+![firebase glacier](/public/firebase-glacier.jpg "Firebase glacier")
